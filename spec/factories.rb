@@ -9,4 +9,5 @@ FactoryBot.define do
     d_name {Faker::Creature::Dog.name}
     d_breed {Faker::Creature::Dog.breed}
     date {"today"}
+  end
 end
